@@ -11,10 +11,10 @@ var j = 0;
 
 var maxsecond = second.length - 1;
 
-setInterval(displayHello, 1000);
+setInterval(displayHello, 2000);
 
 function displayHello() {
-    document.getElementById("ilike").innerHTML = "I like to " + second[j] + "!";
+    document.getElementById("ilike").innerHTML = second[j] + "!";
     if (j < maxsecond) j++; else j = 0;
 
   }

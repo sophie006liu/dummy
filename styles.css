@@ -89,24 +89,13 @@ li {
   grid-template-rows: 30px 60px 250px 150px 60px; 
   /*should add to 550*/
   grid-template-columns: 50px 200px 200px 200px 200px 50px;
-}
-#about-grid > div {
-  border: 1px solid rgba(120, 118, 218, 0.4);
-}
-
-.about-card {
-  border: 1px solid rgba(120, 118, 218, 0.4);
-}
-
+} 
 #slide-grid {
   display: grid;
   grid-template-rows:
     10px 72px 10px 72px 10px 72px
     10px 72px 10px 72px 10px 72px 10px;
   grid-template-columns: 10px 162px 10px;
-}
-#slide-grid > div {
-  /* border: 1px solid rgba(120,118,218,0.4); */
 }
 
 .slide-card {
@@ -119,9 +108,6 @@ li {
     10px 90px 10px 90px 10px 90px
     10px 90px 10px 90px 10px 90px;
   grid-template-columns: 10px 162px 10px;
-}
-#side-grid > div {
-  /* border: 1px solid rgba(120,118,218,0.4); */
 }
 
 .side-card {
@@ -136,3 +122,51 @@ li {
   grid-column: 2 / 6;
   grid-row: 4;
 }
+ 
+
+#profint-grid {
+  display: grid;
+  grid-template-rows: 30px 60px 250px 150px 60px; 
+  /*should add to 550*/
+  grid-template-columns: 50px 250px 200px 150px 200px 50px;
+}
+/* #profint-grid > div {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+}
+
+.profint-card {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+} */
+
+.prof-title {
+  grid-column: 2 / 5;
+  grid-row: 2;
+}
+
+.prof-text {
+  grid-column: 2 / 5;
+  grid-row: 3;
+  float: left;
+}
+
+
+
+#origin-grid {
+    display: grid;
+    grid-template-rows: 10px 60px 70px 70px 70px 30px 100px 100px 40px; 
+    grid-template-columns: 50px 250px 350px 200px 50px;
+  } 
+/* #origin-grid > div {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+} */
+
+ 
+.origin-title {
+  grid-column: 2 / 5;
+  grid-row: 2;
+}
+
+.origin-p {
+  grid-column: 2 / 5; 
+}
+
