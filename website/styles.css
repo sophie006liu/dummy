@@ -1,0 +1,172 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 50px 25px 30px 550px 30px 1fr;
+  grid-template-columns: 50px 150px 150px 900px 150px 1fr;
+  font-family: Arial;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+website_title {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.logo {
+  grid-row: 1/2;
+  grid-column: 1;
+  background: rgba(250, 250, 251, 0.8);
+}
+
+.one {
+  grid-row: 1;
+  grid-column: 2/6;
+  background: rgba(245, 250, 251, 0.8);
+  border-bottom: 1px solid rgba(220, 218, 218, 0.4);
+}
+
+.nav_bar {
+  padding: 2px;
+  font-color: gray;
+  font-family: Arial;
+  font-size: 12px;
+  grid-column: 2 / 6;
+  grid-row: 2;
+  background: rgba(251, 255, 241, 0.5);
+  border-bottom: 1px solid rgba(220, 218, 218, 0.4);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-right: 10px;
+  display: inline;
+}
+
+.three {
+  grid-column: 3/6;
+  grid-row: 3/8;
+  background: rgba(189, 189, 189, 0.5);
+}
+
+.four {
+  grid-column: 1/3;
+  grid-row: 3/8;
+  background: rgba(249, 247, 246, 0.8);
+}
+
+.card {
+  moz-box-shadow: 0 0 3px #ccc;
+  webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  grid-column: 4;
+  grid-row: 4;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+#inner-grid {
+  display: grid;
+  grid-template-rows: 50px 50px 100px 80px 80px 200px;
+  grid-template-columns: 150px 1fr 150px;
+}
+#inner-grid > div {
+  /* border: 1px solid rgba(120, 118, 218, 0.4); */
+}
+
+#about-grid {
+  display: grid;
+  grid-template-rows: 30px 60px 250px 150px 60px; 
+  /*should add to 550*/
+  grid-template-columns: 50px 200px 200px 200px 200px 50px;
+} 
+#slide-grid {
+  display: grid;
+  grid-template-rows:
+    10px 72px 10px 72px 10px 72px
+    10px 72px 10px 72px 10px 72px 10px;
+  grid-template-columns: 10px 162px 10px;
+}
+
+.slide-card {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+}
+
+#side-grid {
+  display: grid;
+  grid-template-rows:
+    10px 90px 10px 90px 10px 90px
+    10px 90px 10px 90px 10px 90px;
+  grid-template-columns: 10px 162px 10px;
+}
+
+.side-card {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+}
+
+.slide-1-title{
+  grid-column: 2/3;
+}
+
+.intro {
+  grid-column: 2 / 6;
+  grid-row: 4;
+}
+ 
+
+#profint-grid {
+  display: grid;
+  grid-template-rows: 30px 60px 250px 150px 60px; 
+  /*should add to 550*/
+  grid-template-columns: 50px 250px 200px 150px 200px 50px;
+}
+/* #profint-grid > div {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+}
+
+.profint-card {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+} */
+
+.prof-title {
+  grid-column: 2 / 5;
+  grid-row: 2;
+}
+
+.prof-text {
+  grid-column: 2 / 5;
+  grid-row: 3;
+  float: left;
+}
+
+
+
+#origin-grid {
+    display: grid;
+    grid-template-rows: 10px 60px 70px 70px 70px 30px 100px 100px 40px; 
+    grid-template-columns: 50px 250px 350px 200px 50px;
+  } 
+/* #origin-grid > div {
+  border: 1px solid rgba(120, 118, 218, 0.4);
+} */
+
+ 
+.origin-title {
+  grid-column: 2 / 5;
+  grid-row: 2;
+}
+
+.origin-p {
+  grid-column: 2 / 5; 
+}
+
