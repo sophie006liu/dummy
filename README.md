@@ -1,3 +1,3 @@
 # dummy
 
-This is my personal website that is still in progress!
+Website used for a class at CMU
